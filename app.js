@@ -178,3 +178,163 @@
 
 // 
 // Q no.6
+// var balance = 10000;
+
+// var deposit = +prompt("Enter deposit amount:");
+
+// if ((deposit === "") || deposit <= 0) {
+//     alert("Invalid Amount! Please enter a positive number.");
+// }
+// else {
+
+//     balance = balance + deposit;
+
+//     if (deposit > 20000) {
+//         alert("Large Deposit Detected");
+//     }
+
+//     if (balance > 100000) {
+//         alert("High Account Balance");
+//     }
+
+//     alert("Updated Balance: " + balance);
+// }
+
+// 
+// Q no.7
+// var totalDays = 30;
+
+// var presentDays = +prompt("Enter present days (out of 30):");
+
+// if ((presentDays === "") || presentDays < 0 || presentDays > 30) {
+//     alert("Invalid Input! Days must be between 0 and 30.");
+// }
+// else {
+
+//     var percentage = (presentDays / totalDays) * 100;
+
+//     if (percentage >= 75) {
+//         alert("Eligible");
+//     }
+//     else if (percentage >= 50) {
+//         alert("Warning");
+//     }
+//     else {
+//         alert("Not Eligible");
+//     }
+
+//     if (presentDays === 30) {
+//         alert("Perfect Attendance");
+//     }
+// }
+
+// 
+// Q no.8
+// var brands = ["Samsung", "Apple", "Xiaomi"];
+// var prices = [30000, 80000, 15000];
+
+// var userBrand = prompt("Enter mobile brand:").toLowerCase();
+
+// var index = -1;
+
+// for (var i = 0; i < brands.length; i++) {
+//     if (brands[i].toLowerCase() === userBrand) {
+//         index = i;
+//         break;
+//     }
+// }
+
+// if (index === -1) {
+//     alert("Brand not available");
+// }
+// else {
+
+//     var price = prices[index];
+
+//     alert("Price: " + price);
+
+//     if (price > 50000) {
+//         alert("High-End Device");
+//     }
+//     else if (price >= 20000) {
+//         alert("Mid-Range Device");
+//     }
+//     else {
+//         alert("Budget Device");
+//     }
+
+//     if (index === 0) {
+//         alert("Top Selling Brand");
+//     }
+// }
+
+// 
+// Q no.9
+// var q1 = "Waleed".toLowerCase();
+// var q2 = "Karachi".toLowerCase();
+// var q3 = "Javascript".toLowerCase();
+
+// var score = 0;
+
+// var ans1 = prompt("Q1 What is Your Name:");
+// var ans2 = prompt("Q2 Where are you Located:");
+// var ans3 = prompt("Q3 What is your Favorite Language:");
+
+// if (ans1 === q1) {
+//     score++;
+// }
+
+// if (ans2 === q2) {
+//     score++;
+// }
+
+// if (ans3 === q3) {
+//     score++;
+// }
+
+// if (score === 3) {
+//     alert("Excellent Performance");
+
+//     alert("Perfect Score");
+// }
+// else if (score === 2) {
+//     alert("Good Job");
+// }
+// else if (score === 1) {
+//     alert("Needs Improvement");
+// }
+// else {
+//     alert("Try Again");
+// }
+
+// 
+// Q no.10
+// var item1 = +prompt("Enter price of item 1:");
+// var item2 = +prompt("Enter price of item 2:");
+// var item3 = +prompt("Enter price of item 3:");
+
+// if ((item1 === "") || item1 <= 0 || (item2 === "") || item2 <= 0 || (item3 === "") || item3 <= 0) {
+    
+//     alert("Invalid input! Prices must be greater than 0.");
+// }
+// else {
+
+//     var total = item1 + item2 + item3;
+
+//     if (item1 > 2000 || item2 > 2000 || item3 > 2000) {
+//         alert("Expensive Item Included");
+//     }
+
+//     var discount = 0;
+
+//     if (total > 5000) {
+//         discount = 15;
+//     }
+//     else if (total > 3000) {
+//         discount = 10;
+//     }
+
+//     var finalBill = total - (total * discount / 100);
+
+//     alert("Total: " + total + "\nDiscount: " + discount + "%" + "\nFinal Bill: " + finalBill);
+// }
